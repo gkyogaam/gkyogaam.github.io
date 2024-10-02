@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Coming Soon Page - English and Hungarian">
-    <title>Hamarosan | Coming Soon</title>
+    <title id="title">Hamarosan</title>
     <style>
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom right, #4A90E2, #9013FE);
+            background: linear-gradient(to bottom right, #86d1ff, #0f13ed);
             color: #fff;
             display: flex;
             justify-content: center;
@@ -45,8 +45,8 @@
 </head>
 <body>
     <div class="container">
-        <h1 id="title">Hamarosan</h1>
-        <p id="message">Dolgozunk rajta, és hamarosan elindulunk!</p>
+        <h1 id="cim">Hamarosan</h1>
+        <p id="message">Üdvözöllek Gaál Kinga Jóga oktató, lélek mediátor oldalán. Dolgozunk az oldalon és hamarosan elindulunk. 🤗✨<br />Addig is nézz körbe itt:<br /><a href="https://www.facebook.com/gk.yoga.and.more">https://www.facebook.com/gk.yoga.and.more</a></p>
 
         <div class="lang-toggle">
             <a id="switchToEn">English</a> | <a id="switchToHu">Magyar</a>
@@ -55,19 +55,21 @@
 
     <script>
         const title = document.getElementById('title');
+        const cim = document.getElementById('cim');
         const message = document.getElementById('message');
         const switchToEn = document.getElementById('switchToEn');
         const switchToHu = document.getElementById('switchToHu');
 
-        // Default language is Hungarian
         switchToEn.addEventListener('click', () => {
             title.textContent = 'Coming Soon';
-            message.textContent = "We're working hard and will be launching soon. Stay tuned!";
+            cim.textContent = title.textContent;
+            message.innerHTML = 'We\'re working hard and will be launching soon. Stay tuned!<br /><a href="https://www.facebook.com/gk.yoga.and.more">https://www.facebook.com/gk.yoga.and.more</a>';
         });
 
         switchToHu.addEventListener('click', () => {
             title.textContent = 'Hamarosan';
-            message.textContent = 'Dolgozunk rajta, és hamarosan elindulunk!';
+            cim.textContent = title.textContent;
+            message.innerHTML = 'Üdvözöllek Gaál Kinga Jóga oktató, lélek mediátor oldalán. Dolgozunk az oldalon és hamarosan elindulunk. 🤗✨<br />Addig is nézz körbe itt:<br /><a href="https://www.facebook.com/gk.yoga.and.more">https://www.facebook.com/gk.yoga.and.more</a>';
         });
     </script>
 </body>
