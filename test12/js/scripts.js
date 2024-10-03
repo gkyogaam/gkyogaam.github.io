@@ -8,7 +8,7 @@ const navText = {
         home: "Home",
         about: "About Us",
         classes: "Classes",
-        contact: "Contact Us",
+        contact: "Contact",
     },
     hu: {
         home: "Főoldal",
