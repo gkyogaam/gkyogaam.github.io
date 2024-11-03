@@ -1,0 +1,107 @@
+<div class="kozepre">
+## Timetable
+</div>
+
+<table class="orarend">
+    <thead>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>08:30 - 10:00</td>
+            <td></td>
+            <td class="kezdo">Beginner<br/>Spine</td>
+            <td></td>
+            <td></td>
+            <td class="halado">Spine</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr><td>11:00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>13:00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>15:00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>17:00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr>
+            <td>18:00 - 19:30</td>
+            <td class="halado">Mobility</td>
+            <td></td>
+            <td class="kezdo">Beginner<br />Mobility /<br />Hatha</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+
+### September 1 - May 31
+#### Monday: Mobility yoga: 18:00
+#### Tuesday: Spine yoga: 8:30
+#### Wednesday: Mobility yoga / Hatha 18:00
+#### Friday: Spine yoga 8:30
+
+<br />
+
+## Prices
+
+![jobbra](/images/orarend.jpg)
+
+#### The price of the advertised classes is HUF 3,500 per person
+#### 5 suitable passes: HUF 15,000 / person
+#### It is valid for 6 weeks from the date of purchase
+#### 10 suitable passes: HUF 25,000 / person
+#### It is valid for 10 weeks from the date of purchase
+#### If the pass expires, it can still expire within 12 months, with additional payment. After 12 months, the expired pass will be destroyed.
+#### Personal private lesson: HUF 13,000 / person / occasion
+In private lessons, I put together specially tailored exercises, taking into account your rate of development, your shape, and possible injuries. I will monitor you all the way, during the entire lesson, and I will help you and correct you.
+
+#### Personal private lesson for two people: HUF 7,000 / person / occasion
+#### Private group lesson (from 4 people to a maximum of 12 people): HUF 5,000 / person / occasion 
+#### Online private lesson: HUF 9,000 / Main / session
+#### In other cases, please contact us.
+
+<br />
+
+## What can you expect?
+
+![jobbra](/images/ora_leiras.jpg)
+
+The classes begin with quieting down, directing focus and some kind of breathing exercise. About 10 - 15 minutes. 
+
+After that, after a warm-up, the ace, which is built on each other, and different poses are practiced. You can read in detail about yoga itself and the type of yoga I practice here on the website.
+
+The practice is about 60 minutes. 
+
+During the lesson, I monitor you throughout and correct you with the intention of helping you. 
+
+If you practice on your own outside of yoga classes, or if you do not inform about an existing problem or illness, I cannot take responsibility for possible injuries.
+
+Always treat your body with love, follow the principle of gradualness and never force your body into a pose or situation for which you are not yet ready! This way you can avoid injuries and unnecessary pain. Slowly, gradually, with regular practice, you will reach the desired state. Give yourself time, because all the time you spend on yourself will pay off. Never be impatient with yourself! Don't curse, don't hurt yourself, rather be proud of yourself, for every step you've taken, for all the time you've devoted to yourself, for all the attention you've paid to yourself.
+
+The entire class ends with relaxation, complete relaxation of the body and mind, which in most cases involves a sound bowl, wind chimes, etc. I also use Be patient with yourself here too! You may not be able to relax at first, but regular practice will bring results in this case as well. Relaxation takes about 10 - 15 minutes.
+
+The entire yoga class is approximately 90 minutes. 
+
+If you can, do not eat 2-3 hours before starting the exercise, or only some easily digestible fresh fruit or salad. Exercising under the influence of alcohol or any drug is prohibited. If you have any mental problems, please let me know before the class starts.
+
+Registration is required for classes!If you still cannot attend the class, you can cancel at least 6 hours before the class starts.
+
+Contact:
+
+phone / whatsapp / viber: [+36 20 566 9665](tel:+36205669665)
+
+email: [gkyogaam@gmail.com](mailto:gkyogaam@gmail.com)
+
+I hold the classes in Balatonfüred, Arács, in the MindEgy Jóga center, in the attic of the Spar store at Lóczy Lajos utca 50.
+
+Monday and Friday classes in the Sun room, Wednesday classes in the Moon room.

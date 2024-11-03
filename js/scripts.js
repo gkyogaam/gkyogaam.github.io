@@ -1,19 +1,28 @@
 const sections = document.querySelectorAll('.content-section');
 let currentLanguage = 'hu'; // Default language
 
-const validSections = ['home', 'about', 'classes', 'contact'];
-// const customSections = ['about', 'classes', 'contact'];
+const validSections = ['home', 'about', 'classes', 'yoga', 'quantum', 'access', 'self', 'retreat', 'contact'];
 const navText = {
     en: {
         home: "Home",
         about: "About Us",
         classes: "Classes",
+        yoga: "About Yoga",
+        quantum: "Quantum Touch",
+        access: "Access-Bars",
+        self: "Self knowledge",
+        retreat: "Events",
         contact: "Contact",
     },
     hu: {
         home: "Főoldal",
         about: "Rólam",
         classes: "Órák",
+        yoga: "A jógáról",
+        quantum: "Kvantumérintés",
+        access: "Access-Bars",
+        self: "Önismeret",
+        retreat: "Események",
         contact: "Kapcsolat",
     }
 };
@@ -56,10 +65,10 @@ function parseMarkdown(text) {
     text = text.replace(/\n\s*\n/g, '</p><p>');
 
     // Links: [text](url)
-    text = text.replace(/\[([^\[]+)\]\(((mailto:[^\)]+)|(https?:\/\/[^\)]+))\)/g, '<a href="$2">$1</a>');
+    text = text.replace(/\[([^\[]+)\]\(((tel:[^\)]+)|(mailto:[^\)]+)|(https?:\/\/[^\)]+))\)/g, '<a href="$2">$1</a>');
 
     // images
-    text = text.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" style="max-width:100%; height:auto;">');
+    text = text.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" class="$1" style="max-width:100%; height:auto;">');
 
     // Ensure the text is wrapped in <p> tags
     return `<p>${text}</p>`;
@@ -72,12 +81,26 @@ function loadContent(section, language) {
     fetch(filePath)
         .then(response => response.text())
         .then(data => {
-            const lines = data.split('\n');
+            // const lines = data.split('\n');
             const parsedContent = parseMarkdown(data);
             document.getElementById(section).innerHTML = `<p>${parsedContent}</p>`;
         })
         .catch(error => {
             document.getElementById(section).innerHTML = '<p>Error loading content.</p>';
+        });
+}
+
+function updateContactText(language) {
+    let filePath = `content/contact_${language}.txt`;
+
+    fetch(filePath)
+        .then(response => response.text())
+        .then(data => {
+            const parsedContent = parseMarkdown(data);
+            document.getElementById("footer_contact").innerHTML = `<p>${parsedContent}</p>`;
+        })
+        .catch(error => {
+            document.getElementById("footer_contact").innerHTML = '<p>Error loading content.</p>';
         });
 }
 
@@ -99,7 +122,7 @@ function updateNavText(language) {
     const navLinks = container.querySelectorAll('nav a');
     navLinks.forEach(link => {
         const section = link.getAttribute('data-section');
-        link.textContent = navText[language][section]; // Set the text for the current language
+        link.textContent = navText[language][section].replace(" ", String.fromCharCode(160)); // Set the text for the current language
     });
 }
 
@@ -107,12 +130,14 @@ function updateNavText(language) {
 document.getElementById('switchToEn').addEventListener('click', () => {
     currentLanguage = 'en';
     updateNavText(currentLanguage); // Update navigation text
+    updateContactText(currentLanguage);
     handleHashChange(); // Load the content for the current hash
 });
 
 document.getElementById('switchToHu').addEventListener('click', () => {
     currentLanguage = 'hu';
     updateNavText(currentLanguage); // Update navigation text
+    updateContactText(currentLanguage);
     handleHashChange(); // Load the content for the current hash
 });
 
@@ -125,3 +150,4 @@ if (!window.location.hash) {
 }
 handleHashChange(); // Load initial content
 updateNavText(currentLanguage); // Set initial navigation text
+updateContactText(currentLanguage);

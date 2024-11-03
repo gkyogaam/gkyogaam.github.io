@@ -1,8 +1,59 @@
+<div class="kozepre">
 ## Órarend
-## szeptember 1. - május 31.
-### Hétfő: Mobilitás / Hatha: 18:00
-### Szerda: Mobilitás / Hatha 18:30
-### Péntek: Gerinc jóga 8:30
+</div>
+
+<table class="orarend">
+    <thead>
+        <tr>
+            <th>Idő</th>
+            <th>Hétfő</th>
+            <th>Kedd</th>
+            <th>Szerda</th>
+            <th>Csütörtök</th>
+            <th>Péntek</th>
+            <th>Szombat</th>
+            <th>Vasárnap</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>08:30 - 10:00</td>
+            <td></td>
+            <td class="kezdo">Kezdő<br/>Gerinc</td>
+            <td></td>
+            <td></td>
+            <td class="halado">Gerinc</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr><td>11:00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>13:00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>15:00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>17:00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr>
+            <td>18:00 - 19:30</td>
+            <td class="halado">Mobilitás</td>
+            <td></td>
+            <td class="kezdo">Kezdő<br />Mobilitás /<br />Hatha</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+### szeptember 1. - május 31.
+#### Hétfő: Mobilitás jóga: 18:00
+#### Kedd: Gerinc jóga: 8:30
+#### Szerda: Mobilitás jóga / Hatha 18:00
+#### Péntek: Gerinc jóga 8:30
+
+<br />
+
+## Árak
+
+![jobbra](/images/orarend.jpg)
 
 #### A meghirdetett órák díja alkalmanként: 3500 Ft / fő
 #### 5 alkalmas bérlet: 15.000 Ft / fő
@@ -17,6 +68,12 @@ A magán órákon, kifejezetten személyre szabottan állítom össze a gyakorla
 #### Csoportos magán óra (4 főtől maximum 12 főig) : 5000 Ft / fő /alkalom 
 #### Online magán óra: 9.000 Ft / Fő / alkalom
 #### Egyéb esetben kérlek egyeztessünk!
+
+<br />
+
+## Mire számíthasz?
+
+![jobbra](/images/ora_leiras.jpg)
 
 Az órák elcsendüléssel, fókusz irányítással és valamilyen légző gyakorlattal kezdődnek. Körülbelül 10 - 15 perc. 
 
@@ -39,7 +96,7 @@ Bejelentkezés szükséges az órákra! Amennyiben mégsem tudsz résztvenni az 
 
 Bejelentkezés: 
 
-telefon / whatsapp / viber: +36205669665
+telefon / whatsapp / viber: [+36 20 566 9665](tel:+36205669665)
 
 email: [gkyogaam@gmail.com](mailto:gkyogaam@gmail.com)
 

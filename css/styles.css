@@ -1,0 +1,285 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: rgba(255, 255, 255, 0.8);  /* Add a pale overlay with white and some transparency */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/lotusz.png'); /* Replace with your image path */
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.1;  /* Set the transparency level (0.3 means 30% visible) */
+  z-index: -1;   /* Ensure the background is behind other content */
+}
+
+header {
+  background-color: rgba(189, 112, 89, 1);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+#footer {
+  bottom: 0;
+  width: 100%;
+}
+
+#nonfooter-wrap {
+  min-height: 82vh;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-block {
+  flex: 1;
+}
+
+.footer-logo {
+  max-width: 150px; /* Adjust logo size */
+  margin-bottom: 20px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-section {
+  display: none;
+  padding: 2%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: transparent;
+  border-radius: 16px;
+  margin-top: 20px;
+  text-align: justify;
+  font-size: large;
+  line-height: 130%;
+}
+
+.content-section.active {
+  display: block;
+  flex: 1;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  margin-top: 15px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+  transition: color 0.5s;
+}
+
+nav a:hover {
+  color: rgba(189, 112, 89, 1);
+}
+
+.lang-toggle {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.lang-toggle a {
+  cursor: pointer;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+}
+
+.lang-toggle a:hover {
+  color: rgba(189, 112, 89, 1);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#home {
+  text-align: center;
+}
+
+#contact {
+  text-align: center; /* Keeps the text left-aligned */
+  align-items: center;
+  align-content: center;
+}
+
+#center {
+  display: inline-block;
+  text-align: left;
+}
+
+a {
+  margin: 0 3px;
+  text-decoration: none;
+  color: rgba(189, 112, 89, 1);
+  transition: color 0.5s;
+}
+a:hover {
+  color: rgb(255, 148, 116);
+}
+
+h1 {
+  font-family: cursive;
+}
+
+.social-media-icons {
+  list-style: none;
+  gap: 25px; /* Space between icons */
+  text-align: left;
+}
+
+.social-media-icons li {
+  display: inline;
+}
+
+.social-media-icons a {
+  color: white; /* Change icon color */
+  text-decoration: none; /* Remove underline */
+  font-size: 1.5rem; /* Icon size */
+  transition: color 0.5s; /* Smooth color transition */
+}
+
+.social-media-icons a:hover {
+  color: rgba(189, 112, 89, 1); /* Change color on hover */
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.rolam {
+  width: 200px;  /* Adjust the size */
+  height: 200px; /* Same as width to make it a square */
+  border-radius: 50%; /* This makes it a circle */
+  object-fit: cover; /* Ensures the image fits nicely inside the circle */
+}
+
+.jobbra {
+  float: right;
+  margin: 20px 20px 20px 20px; /* Adds space around the image */
+  width: 300px; /* Adjust as needed */
+  text-align: right;
+}
+
+.balra {
+  float: left;
+  margin: 20px 20px 20px 20px; /* Adds space around the image */
+  width: 400px; /* Adjust as needed */
+  text-align: left;
+}
+
+.kozepre {
+  text-align: center;
+}
+
+/* #barefoot {
+  width: 200px;
+} */
+
+table {
+  width: 100%;
+  margin: 20px 0;
+  background-color: transparent;
+
+  border-spacing: 2px;
+  border-collapse: separate;
+}
+
+th, td {
+  padding: 7px;
+  text-align: center;
+  border: 1px solid rgba(189, 112, 89, 1);
+}
+
+th {
+  background-color: rgba(189, 112, 89, 1);
+  color: white;
+}
+
+td {
+  height: 50px;
+  width: 100px;
+}
+
+td.kezdo {
+  background-color: rgb(246, 157, 130);
+  color: white;
+  font-weight: bold;
+}
+
+td.normal {
+  background-color: rgb(255, 112, 68);
+  color: white;
+  font-weight: bold;
+}
+
+td.halado {
+  background-color: rgb(223, 97, 59);
+  color: white;
+  font-weight: bold;
+}
+
+/* Mobile view: Stack the columns */
+@media (max-width: 768px) {
+  .jobbra, .balra {
+      float: none;
+      display: block;
+      margin: 0 auto 20px; /* Center the image with margin below */
+      width: 100%; /* Makes the image responsive */
+      max-width: 100%; /* Prevents image from exceeding its container */
+  }
+  table, th, td {
+    font-size: 10px;
+  }
+  .contact-info {
+    min-width: 70%;
+  }
+
+  .social-media-icons {
+    min-width: 100%;
+    margin-left: -50px;
+  }
+}
+  
