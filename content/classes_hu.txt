@@ -2,6 +2,7 @@
 ## Órarend
 </div>
 
+<!--
 <table class="orarend">
     <thead>
         <tr>
@@ -48,6 +49,8 @@
 #### Kedd: Gerinc jóga: 8:30
 #### Szerda: Mobilitás jóga / Hatha 18:00
 #### Péntek: Gerinc jóga 8:30
+-->
+Az órák a nyári szünetben is folyatódnak, heti aktuális órarendért [látogass el Facebook oldalamra](https://www.facebook.com/gk.yoga.and.more)!
 
 <br />
 
