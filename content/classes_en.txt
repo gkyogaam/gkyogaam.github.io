@@ -19,22 +19,58 @@
         <tr>
             <td>08:30 - 10:00</td>
             <td></td>
-            <td class="kezdo">Beginner<br/>Spine</td>
+            <td class="kezdo">Spine<br/>Yoga</td>
             <td></td>
             <td></td>
-            <td class="halado">Spine</td>
+            <td class="halado">Fascial<br/>Spine<br/>Yoga</td>
             <td></td>
             <td></td>
         </tr>
-        <tr><td>11:00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>13:00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>15:00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>17:00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr>
+            <td>11:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>13:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>15:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>17:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
         <tr>
             <td>18:00 - 19:30</td>
-            <td class="halado">Mobility</td>
+            <td class="halado">Mobility<br/>Yoga</td>
             <td></td>
-            <td class="kezdo">Beginner<br />Mobility /<br />Hatha</td>
+            <td class="kezdo">Women's<br/>Yoga</td>
             <td></td>
             <td></td>
             <td></td>
@@ -45,10 +81,10 @@
 <br />
 
 ### September 1 - May 31
-#### Monday: Mobility yoga: 18:00
-#### Tuesday: Spine yoga: 8:30
-#### Wednesday: Mobility yoga / Hatha 18:00
-#### Friday: Spine yoga 8:30
+#### Monday: Mobility Yoga: 18:00
+#### Tuesday: Spine Yoga: 8:30
+#### Wednesday: Women's Yoga 18:00
+#### Friday: Fascial Spine Yoga 8:30
 
 <br />
 
