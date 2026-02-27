@@ -2,7 +2,6 @@
 ## Órarend
 </div>
 
-<!--
 <table class="orarend">
     <thead>
         <tr>
@@ -20,10 +19,10 @@
         <tr>
             <td>08:30 - 10:00</td>
             <td></td>
-            <td class="kezdo">Kezdő<br/>Gerinc</td>
+            <td class="kezdo">Kezdő<br/>Gerinc<br/>Jóga</td>
             <td></td>
             <td></td>
-            <td class="halado">Gerinc</td>
+            <td class="halado">Fasciális<br/>Gerinc Jóga</td>
             <td></td>
             <td></td>
         </tr>
@@ -69,9 +68,9 @@
         </tr>
         <tr>
             <td>18:00 - 19:30</td>
-            <td class="halado">Mobilitás</td>
+            <td class="halado">Mobilitás<br/>Jóga</td>
             <td></td>
-            <td class="kezdo">Kezdő<br />Mobilitás /<br />Hatha</td>
+            <td class="kezdo">Női hormon<br/>Jóga</td>
             <td></td>
             <td></td>
             <td></td>
@@ -81,46 +80,29 @@
 </table>
 <br />
 ### szeptember 1. - május 31.
-#### Hétfő: Mobilitás jóga: 18:00
-#### Kedd: Gerinc jóga: 8:30
-#### Szerda: Mobilitás jóga / Hatha 18:00
-#### Péntek: Gerinc jóga 8:30
--->
-Az órák a nyári szünetben is folyatódnak, heti aktuális órarendért [látogass el Facebook oldalamra](https://www.facebook.com/gk.yoga.and.more)!
+#### Hétfő: Mobilitás Jóga: 18:00
+#### Kedd: Gerinc Jóga: 8:30
+#### Szerda: Női hormon Jóga: 18:00
+#### Péntek: Fascia alapú Gerinc Jóga 8:30
+
+Az órarend tájékoztató jellegű heti aktuális órarendért [látogass el Facebook oldalamra](https://www.facebook.com/gk.yoga.and.more)!
 
 <br />
 
 ## Árak
 
 ![jobbra](/images/orarend.jpg)
-### 2025. május 1. után érvényes árlista
-#### 2025 május 1. - szeptember 1.
-#### 5 alkalmas jógabérlet 15.000 Ft (változatlan)
-### 2025 szeptember 1. után, visszavonásig
+### 2025. szeptember 1. után érvényes árlista
+
 #### 5 alkalmas jógabérlet 18.000 Ft diákoknak 15.000 Ft
-#### 2025. május 1. után, visszavonásig
 #### 10 alkalmas jógabérlet 30.000 Ft
 diákoknak 25.000 Ft
-#### 2025. május 1. után, visszavonásig
 #### Alkalmi jógaóra 4.000 Ft
 diákoknak 3.500 Ft
-#### 2025. szeptember 1. után magán jógaóra 15.000 Ft diákoknak 13.000 Ft
-#### 2025. szeptember 1. után visszavonásig Páros magán jógaóra 18.000 Ft
+#### magán jógaóra 15.000 Ft diákoknak 13.000 Ft
+#### Páros magán jógaóra 18.000 Ft
 
-<!--
-#### A meghirdetett órák díja alkalmanként: 3500 Ft / fő
-#### 5 alkalmas bérlet: 15.000 Ft / fő
-#### A megvásárlástól számított 6 hétig érvényes
-#### 10 alkalmas bérlet: 25.000 Ft / fő
-#### A megvásárlástól számított 10 hétig érvényes
-#### Amennyiben a bérlet érvényét veszti, még lejárható 12 hónapon belül, ráfizetéssel. 12 hónap után a lejárt bérlet megsemmisítésre kerül.
-#### Személyes magán óra: 13.000 Ft / fő / alkalom
-A magán órákon, kifejezetten személyre szabottan állítom össze a gyakorlatokat a fejlődési ütemedet, az alkatodat, esetleges sérüléseidet figyelembe véve. Végig figyelemmel kísérlek, az egész óra alatt, illetve segítelek, javítalak.
 
-#### Személyes magán óra két fő részére: 7.000 Ft / fő / alkalom
-#### Csoportos magán óra (4 főtől maximum 12 főig) : 5000 Ft / fő /alkalom 
-#### Online magán óra: 9.000 Ft / Fő / alkalom
--->
 #### Egyéb esetben kérlek egyeztessünk!
 
 <br />
